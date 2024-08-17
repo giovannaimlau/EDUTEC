@@ -86,6 +86,11 @@ body {
         }
 
         /* ESTILO DAS ESPECIALIDADES */
+
+        div {
+            display: inline-block;
+        }
+
         section.especiliadades {
             padding-top: 5rem;
             padding-bottom: 5rem;
@@ -94,6 +99,15 @@ body {
         
         section.especiliadades .flex {
             gap: 60px;
+        }
+
+        .especiliadades .titulo {
+            padding-bottom: 5rem;
+            padding-top: 5rem;
+        }
+
+        .especiliadades img{
+            display: inline-block;
         }
 
         .especiliadades .teorias {
@@ -108,10 +122,51 @@ body {
             transform: scale(1.05);
             box-shadow: 0 0 20px #ffffff78;
         }
-        
-        
-        
+
         .especiliadades .teorias h3 {
             font-size: 28px;
             margin: 15px 0;
         }
+        
+        
+        
+        .especiliadades .buracos-negros h3 {
+            font-size: 28px;
+            margin: 15px 0;
+        }
+
+        section.especiliadades {
+            padding: 40px 8%;
+        }
+
+        .especiliadades .buracos-negros {
+            color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 45px;
+            transition: .2s;
+        }
+        
+        .especiliadades .buracos-negros:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ffffff78;
+        }
+        
+        .especiliadades .espaco-tempo h3 {
+            font-size: 28px;
+            margin: 15px 0;
+        }
+
+        .especiliadades .espaco-tempo {
+            color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 45px;
+            transition: .2s;
+        }
+        
+        .especiliadades .espaco-tempo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ffffff78;
+        }
+        
