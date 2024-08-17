@@ -30,18 +30,88 @@ body {
     }
     
     a:hover{
-    color: rgb(126, 98, 143);
+    color: rgb(98, 114, 143);
     transition: 0.3s all;
     }
     
     #inscreva-se-btn{
-    border: 2px solid rgb(114, 77, 136);
+    border: 2px solid rgb(68, 96, 175);
     padding: 10px;
     border-radius: 15px;
     }
     
     #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
+    background-color: rgb(14, 89, 201);
     color: white;
     }
-    
+
+    h1{
+        font-weight: 200;
+        }
+        
+        main{
+        display: flex;
+        flex-direction: row;
+        padding-top: 150px;
+        padding-bottom: 250px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-image: url(/img/telescopio.jpg);
+        }
+        
+        h2{
+        font-size: 56px;
+        line-height: 10px;
+        font-family: poppinsmedium;
+        }
+        
+        span{
+        color: rgb(68, 96, 175);
+        }
+        
+        p{
+        line-height: 20px;
+        max-width: 500px;
+        font-size: large;
+        font-family: poppinslight;
+        padding-bottom: 1rem;
+        }
+        
+        aside {
+            background-color: rgba(0, 0, 0, 0.562);
+            border-radius: 2rem;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        /* ESTILO DAS ESPECIALIDADES */
+        section.especiliadades {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            padding-left: 5rem;
+        }
+        
+        section.especiliadades .flex {
+            gap: 60px;
+        }
+
+        .especiliadades .teorias {
+            color: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 45px;
+            transition: .2s;
+        }
+        
+        .especiliadades .teorias:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ffffff78;
+        }
+        
+        
+        
+        .especiliadades .teorias h3 {
+            font-size: 28px;
+            margin: 15px 0;
+        }

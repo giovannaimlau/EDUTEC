@@ -81,7 +81,10 @@ aside {
     background-color: rgba(0, 0, 0, 0.562);
     border-radius: 2rem;
     padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
+
 
 #saber_mais {
     border: 2px solid rgb(114, 77, 136);
