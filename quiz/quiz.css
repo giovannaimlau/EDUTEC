@@ -178,4 +178,17 @@ body {
         .flex {
             display: flex;
         }
+
+        #saber_mais {
+            border: 2px solid rgb(68, 96, 175);
+            padding: 10px;
+            border-radius: 15px;
+            text-decoration: none;
+            size: 16px;
+        }
+        
+        #saber_mais:hover {
+            background-color: rgb(68, 96, 175);
+            color: white;
+        }
         
