@@ -112,3 +112,23 @@ aside {
     font-size: 25px;
     line-height: 30px;
 }
+
+footer{
+    background-color: #111;
+    align-items: center;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
