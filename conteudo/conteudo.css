@@ -170,3 +170,6 @@ body {
             box-shadow: 0 0 20px #ffffff78;
         }
         
+        .flex {
+            display: flex;
+        }

@@ -125,3 +125,29 @@ section.sobre .flex {
     margin: 0 5px;
     transition: .2s;
 }
+
+.flex {
+    display: flex;
+}
+
+/*caixas*/
+
+.caixas div {
+    box-shadow: 0 0 20px #ffffff78;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    margin: 20px;
+}
+
+.caixas h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-around;
+}
