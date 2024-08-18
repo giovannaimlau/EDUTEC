@@ -56,7 +56,9 @@ body {
         padding-bottom: 250px;
         padding-left: 50px;
         padding-right: 50px;
-        background-image: url(/img/telescopio.jpg);
+        background-image: url(/img/4k-universe-blue-galaxy-mmrwwhw8cy5lzxty.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         }
         
         h2{
@@ -102,8 +104,11 @@ body {
         }
 
         .especiliadades .titulo {
+            text-align: center;
             padding-bottom: 5rem;
+            border-radius: 20px;
             padding-top: 5rem;
+            box-shadow: 0 0 20px #ffffff78
         }
 
         .especiliadades img{
@@ -168,5 +173,9 @@ body {
         .especiliadades .espaco-tempo:hover {
             transform: scale(1.05);
             box-shadow: 0 0 20px #ffffff78;
+        }
+        
+        .flex {
+            display: flex;
         }
         

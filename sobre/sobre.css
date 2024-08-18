@@ -112,6 +112,7 @@ section.sobre .flex {
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
+    font-size: 20px;
 }
 
 .btn-social button {

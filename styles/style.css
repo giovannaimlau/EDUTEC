@@ -97,3 +97,18 @@ aside {
     background-color: rgb(132, 14, 201);
     color: white;
 }
+
+.frase {
+    padding: 8rem 5rem 5rem;
+}
+
+.frase div {
+    display: flex;
+    justify-content: center;
+}
+
+.frase p {
+    padding-left: 3rem;
+    font-size: 25px;
+    line-height: 30px;
+}
