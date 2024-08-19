@@ -30,18 +30,18 @@ body {
     }
     
     a:hover{
-    color: rgb(98, 114, 143);
+    color: rgb(130, 98, 143);
     transition: 0.3s all;
     }
     
     #inscreva-se-btn{
-    border: 2px solid rgb(68, 96, 175);
+    border: 2px solid rgb(136, 68, 175);
     padding: 10px;
     border-radius: 15px;
     }
     
     #inscreva-se-btn:hover{
-    background-color: rgb(14, 89, 201);
+    background-color: rgb(126, 14, 201);
     color: white;
     }
 
@@ -56,7 +56,7 @@ body {
         padding-bottom: 250px;
         padding-left: 50px;
         padding-right: 50px;
-        background-image: url(/img/blue-4k-neutron-star-4xzf0byog8bxi3mu.jpg);
+        background-image: url(/img/1920x1080-hd-space-ab4lm018jxlopn1i.jpg);
         background-repeat: repeat;
         background-size: cover;
         }
@@ -68,7 +68,7 @@ body {
         }
         
         span{
-        color: rgb(68, 96, 175);
+        color: rgb(123, 68, 175);
         }
         
         p{
