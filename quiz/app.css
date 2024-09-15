@@ -10,6 +10,44 @@
     padding: 0;
     color: #333;
   }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    #title{
+    flex-direction: column;
+    line-height: 10px;
+    padding-left: 50px;
+    }
+    
+    li{
+    display: inline-block;
+    margin: 20px;
+    }
+    
+    a{
+    color: white;
+    }
+    
+    a:hover{
+    color: rgb(126, 98, 143);
+    transition: 0.3s all;
+    }
+    
+    #inscreva-se-btn{
+    border: 2px solid rgb(114, 77, 136);
+    padding: 10px;
+    border-radius: 15px;
+    }
+    
+    #inscreva-se-btn:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+    }
   
   h1,
   h2,
@@ -20,7 +58,7 @@
   
   h1 {
     font-size: 5.4rem;
-    color: #56a5eb;
+    color: #944bcf;
     margin-bottom: 5rem;
   }
   
@@ -82,13 +120,14 @@
   /* BUTTONS */
   .btn {
     font-size: 1.8rem;
+    border-radius: 10px;
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: 0.1rem solid #000000;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
+    color: #b456eb;
     background-color: white;
   }
   
