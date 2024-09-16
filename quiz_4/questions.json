@@ -1,26 +1,26 @@
 [
     {
-      "question": "o que é a distorção do espaço tempo?",
-      "choice1": "Como uma estrela morre",
-      "choice2": "Porque as coisas caem",
-      "choice3": "Como o espaço e o tempo trabalham juntos",
-      "choice4": "Explica as formas de vida",
-      "answer": 3
+      "question": "Qual o nome do ponto do buraco negro onde o espaço e o tempo deixam de existir?",
+      "choice1": "Singularidade",
+      "choice2": "Horizonte de eventos",
+      "choice3": "Ergosfera",
+      "choice4": "Exosfera",
+      "answer": 1
     },
     {
-      "question": "Quem foi responsavel por criar a Teoria da Gravidade?",
-      "choice1": "Albert Einstein",
-      "choice2": "Isaac Newton",
-      "choice3": "Stephen Hawking",
-      "choice4": "Robert Oppenheimer",
+      "question": "O que é um buraco negro?",
+      "choice1": "Uma especie de estrela",
+      "choice2": "Um abismo cósmico",
+      "choice3": "Uma especie de galaxia",
+      "choice4": "Um disco de acreção",
       "answer": 2
     },
     {
-      "question": "o que é o fenomedo chamado lente gravitacional?",
-      "choice1": "Quando os astros se atraem",
-      "choice2": "Quando uma estrela morre e sua luz vai apagando",
-      "choice3": "Quando um meteoro aparece na horbita terrestre",
-      "choice4": "Quando a luz de uma estrela desvia perto de objetos massivos",
+      "question": "Qual desses NÃO é uma partde do buraco negro?",
+      "choice1": "Horizonte de eventos",
+      "choice2": "Singularidade",
+      "choice3": "Ergosfera",
+      "choice4": "Exosfera",
       "answer": 4
     }
   ]
