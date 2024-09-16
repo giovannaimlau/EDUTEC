@@ -1,53 +1,8 @@
 :root {
-    background-color: #ecf5ff;
+    background-color: rgb(247, 247, 247);
     font-size: 62.5%;
   }
   
-  * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-
-  header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    }
-    
-    #title{
-    flex-direction: column;
-    line-height: 10px;
-    padding-left: 50px;
-    }
-    
-    li{
-    display: inline-block;
-    margin: 20px;
-    }
-    
-    a{
-    color: white;
-    }
-    
-    a:hover{
-    color: rgb(126, 98, 143);
-    transition: 0.3s all;
-    }
-    
-    #inscreva-se-btn{
-    border: 2px solid rgb(114, 77, 136);
-    padding: 10px;
-    border-radius: 15px;
-    }
-    
-    #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
-    color: white;
-    }
   
   h1,
   h2,
@@ -58,7 +13,7 @@
   
   h1 {
     font-size: 5.4rem;
-    color: #944bcf;
+    color: #4b6acf;
     margin-bottom: 5rem;
   }
   
@@ -81,6 +36,7 @@
   /* UTILITIES */
   
   .container {
+
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -124,16 +80,18 @@
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #000000;
-    margin-bottom: 1rem;
+    border: 0.1rem solid hsl(234, 100%, 66%);
+    margin-bottom: 2rem;
     text-decoration: none;
-    color: #b456eb;
-    background-color: white;
+    color: #385dff;
+    background-color: rgba(255, 255, 255, 0);
   }
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    background-color: rgb(14, 79, 201);
+    color: white;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
   }
